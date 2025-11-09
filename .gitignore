@@ -1,0 +1,57 @@
+# OS
+.DS_Store
+Thumbs.db
+.swp
+.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+.tmp/
+temp/
+*.tmp
+
+# Backups
+*.bak
+*.backup
+*~
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Test files
+test-results/
+coverage/
+
+# System
+.bash_history
+.zsh_history
+
+# SSH Keys (never commit!)
+*.pem
+*.pub
+id_rsa*
+
+# Credentials (never commit!)
+credentials/
+secrets/
+.credentials
+
+# Runtime
+/backup*/
+/part*/
+/mnt/
